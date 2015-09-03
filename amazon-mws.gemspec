@@ -15,6 +15,10 @@ Gem::Specification.new do |s|
   s.extra_rdoc_files = [
     "README.markdown"
   ]
+
+  s.add_dependency "roxml",     "~> 3.3"
+  s.add_dependency "xml-simple",     "~> 1.1"
+
   s.files = [
     ".gitignore",
      "README.markdown",
